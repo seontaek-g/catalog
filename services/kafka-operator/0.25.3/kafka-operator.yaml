@@ -10,7 +10,7 @@ spec:
       chart: kafka-operator
       sourceRef:
         kind: HelmRepository
-        name: kubernetes-charts.banzaicloud.com
+        name: bitnami
         namespace: ${workspaceNamespace}
       version: 0.25.1
   interval: 15s
