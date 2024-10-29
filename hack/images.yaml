@@ -1,0 +1,10 @@
+kafka-0.25.3:
+  - "ghcr.io/banzaicloud/kafka-operator:v0.25.1"
+  - "ghcr.io/mesosphere/cruise-control:2.5.139"
+  - "ghcr.io/mesosphere/dkp-container-images/ghcr.io/banzaicloud/kafka:2.13-3.4.1-d2iq.1"
+  - "ghcr.io/mesosphere/jmx-javaagent:0.18.0"
+  - "quay.io/brancz/kube-rbac-proxy:v0.18.1"
+zookeeper-0.2.17:
+  - "ghcr.io/mesosphere/zookeeper-operator:0.2.15-d2iq.1"
+  - "ghcr.io/mesosphere/zookeeper:0.2.15-d2iq.1"
+  - "docker.io/bitnami/kubectl:1.30.5"
